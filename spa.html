@@ -33,10 +33,19 @@
 
     <section id="home" class="page">
     <!-- home page content -->
-    <table align="center" width="100%"><tbody><tr><td width="50%"><div align="center"><b><a href="https://aof.guzh.me/" target="_blank">Age of Fable for mobile devices</a></b><div>&nbsp;</div><div>&nbsp;</div><div align="center"><a href="#pregenerated">Pre-generated character</a></div><div>&nbsp;</div><div align="center">Create a custom character, using<div align="center"><a href="#create-links">links</a> or <a href="#create-dropdown">drop-down menus</a></div><div>&nbsp;</div><div align="center"><a href="http://localhost:8080/?mode=6">Link to Age of Fable</a></div><div>&nbsp;</div><div align="center"><a href="http://localhost:8080/?mode=1">Frequently Asked Questions</a></div><div>&nbsp;</div><div align="center"><a href="http://localhost:8080/credits.php">Credits</a></div><div>&nbsp;</div><div align="center"><div align="center"><a href="http://localhost:8080/guestbook" target="_blank">Guestbook</a></div><div align="center">(opens in a new window)<div>&nbsp;</div><div align="center"><a href="http://localhost:8080/index.php?mode=3">Links</a></div><div>&nbsp;</div><div align="center"><a href="#stories">Stories</a></div><div>&nbsp;</div><div align="center"><a href="http://localhost:8080/sourcecode.php" target="_blank">Source Code</a></div><div align="center">(opens in a new window)<div>&nbsp;</div></div></div></div></div></div></div></div></td><td width="60%"><div align="center">artwork by Rene Magritte</div><div align="center"><img src="images/intro.jpg"></div><div>&nbsp;</div><div align="center"><!-- Project Wonderful Ad Box Code -->
-    <div id="pw_adbox_1077_2_0"></div>
-    <!-- End Project Wonderful Ad Box Code -->
+    <table align="center" width="100%"><tbody><tr><td width="50%"><div align="center"><b><a href="https://aof.guzh.me/" target="_blank">Age of Fable for mobile devices</a></b><div>&nbsp;</div><div>&nbsp;</div><div align="center"><a href="#pregenerated">Pre-generated character</a></div><div>&nbsp;</div><div align="center">Create a custom character, using<div align="center"><a href="#create-links">links</a> or <a href="#create-dropdown">drop-down menus</a></div><div>&nbsp;</div><div align="center"><a href="#credits">Credits</a></div><div>&nbsp;</div><div align="center"><div align="center"><a href="#stories">Stories</a></div><div>&nbsp;</div</div></div></div></div></div></div></div></td><td width="60%"><div align="center">artwork by Rene Magritte</div><div align="center"><img src="images/intro.jpg"></div><div>&nbsp;</div><div align="center">
     </div></td></tr></tbody></table>
+    </section>
+    <section id="credits" class="page">
+      <div id="credits-container"></div>
+      <script>
+        window.addEventListener('hashchange', function() {
+          if (location.hash === '#credits') renderCreditsPage();
+        });
+        window.addEventListener('load', function() {
+          if (location.hash === '#credits') renderCreditsPage();
+        });
+      </script>
     </section>
 
     <section id="create-links" class="page">
@@ -120,7 +129,6 @@
 
     <section id="game-over" class="page">
     <!-- Full game over.html content copied here -->
-    <table width="100%"><tbody><tr><td width="25%"><div>&nbsp;</div><div>You consider abandoning your sword or your shell-purse, but decide that you're more likely to die later for the lack of them than drown because of them. You enter the water, which suddenly seems colder and deeper than before.</div><div>&nbsp;</div><div><font color="red">Heroism roll, difficulty 21 - made it</font></div><div><font color="red">Stamina roll, difficulty 21 - failed</font></div><div><font color="red">Seafaring roll, difficulty 21 - failed</font></div><div>&nbsp;</div><div>You try and pace yourself, but you soon realise that swimming this distance is beyond you. You turn around and head back to the island. You wade ashore and lie gasping on the beach.</div><div>&nbsp;</div>Alas, the damage was too much for you. You have died.<div>&nbsp;</div><img style="border:0px" src="game%20over_files/end.jpg"><div>&nbsp;</div><div>&nbsp;</div>To save your game, click a <img style="border:0px" src="game%20over_files/savegame.jpg"> above.</td><td width="50%"><div align="center">artwork copyright <a href="http://raue-see.de.vu/" target="_blank">Azalea</a></div><div align="center"><img style="border:0px" src="game%20over_files/title.jpg"></div><div align="center"><b><a href="#" target="_blank">credits</a> . <a href="#home">main menu</a> . <a href="#" target="_blank">guestbook</a> . <a href="#stories" target="_blank">library</a> . <a href="#" target="_blank">source code</a></b></div><div>&nbsp;</div></td><td width="25%"><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><div align="center"><img src="game%20over_files/thumb%20courtesan.jpg"></div></td></tr><tr><td><div align="center"><i>Macout Arnesson</i></div><div align="center">courtesan</div></td></tr></tbody></table><div>&nbsp;</div><table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td>Stamina:</td><td align="right">--/--</td></tr><tr><td>Charisma:</td><td align="right">--</td></tr><tr><td>Duelling:</td><td align="right">--</td></tr><tr><td>Brawling:</td><td align="right">--</td></tr><tr><td>Seafaring:</td><td align="right">--</td></tr><tr><td>Magic:</td><td align="right">--</td></tr><tr><td>Heroism:</td><td align="right">--</td></tr><tr><td>Scouting:</td><td align="right">--</td></tr><tr><td>Roguery:</td><td align="right">--</td></tr><tr><td>Luck:</td><td align="right">--</td></tr><tr><td>Healing:</td><td align="right">--</td></tr><tr><td>Streetwise:</td><td align="right">--</td></tr></tbody></table><div>&nbsp;</div>Cowrie Shells:0<div>&nbsp;</div><div>You have no blessings.</div><div>&nbsp;</div><div>Items:</div><div>your sword</div><div>&nbsp;</div><div>You have no companions.</div></td></tr></tbody></table>
     </section>
 
     <section id="stories" class="page">

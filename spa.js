@@ -1,3 +1,122 @@
+
+
+function renderTable(containerId, galleryData) {
+    const container = document.getElementById(containerId);
+    const table = document.createElement('table');
+    let currentRow;
+
+    galleryData.forEach((item, index) => {
+        // Create a new row every 5 elements
+        if (index % 5 === 0) {
+            currentRow = document.createElement('tr');
+            table.appendChild(currentRow);
+        }
+
+        const td = document.createElement('td');
+        td.align = "center";
+
+        // 1. Main Anchor (Full Res Logic: remove -thumb)
+        const mainLink = document.createElement('a');
+        mainLink.href = item.thumb.replace('-thumb', '');
+        
+        const img = document.createElement('img');
+        img.src = item.thumb;
+        img.style.borderColor = "#8888FF";
+        img.style.borderStyle = "solid";
+        img.style.borderWidth = "2px";
+        
+        mainLink.appendChild(img);
+        td.appendChild(mainLink);
+        td.appendChild(document.createElement('br'));
+
+        // 2. Author Section
+        if (item.author) {
+          let authorLink = null;
+          if(item.author.url == null) {
+            authorLink = document.createElement('span');
+          } else
+          {
+            authorLink = document.createElement('a');
+            authorLink.href = item.author.url;
+          }
+            authorLink.textContent = item.author.name;
+            td.appendChild(authorLink);
+            td.appendChild(document.createElement('br'));
+        }
+
+        // 3. Extra Text (e.g. (slightly altered))
+        if (item.extra) {
+            const span = document.createElement('span');
+            span.textContent = item.extra;
+            td.appendChild(span);
+            td.appendChild(document.createElement('br'));
+        }
+
+        // 4. License Section
+        if (item.license) {
+            const licLink = document.createElement('a');
+            licLink.href = item.license;
+            licLink.target = "_blank";
+            licLink.textContent = "license";
+            td.appendChild(licLink);
+        }
+
+        currentRow.appendChild(td);
+    });
+
+    container.appendChild(table);
+}
+
+  function renderCreditsPage() {
+    var html = `
+<div align="center">The following people have contributed to <a href="#">Age of Fable</a>:</div>
+<div style="height:12px">&nbsp;</div>
+<div align="center"><b>Your adventures were faithfully chronicled</b></div>
+<div align="center"><b>with nothing false set down, nor anything true omitted,</b></div>
+<div align="center">by <a href="http://www.apolitical.info/teleleli" target="_blank">James Hutchings</a>.</div>
+<div style="height:12px">&nbsp;</div>
+<div align="center"><b>The people, places, gods and monsters</b></div>
+<div align="center"><b>of Karrakara and the islands around have been accurately depicted by the following artists.</b></div>
+<div style="height:12px">&nbsp;</div>
+<div align="center">Thanks are due to these artists for permission to use their work.</div>
+<div align="center">Each miniature may be inspected by clicking the thumbnail.</div>
+<div style="height:12px">&nbsp;</div>
+
+<table align="center"><tbody id='gallery1'></tbody></table>
+
+<div style="height:12px">&nbsp;</div>
+<div align="center">The pictures in the letters at the start of the game are by <a href="http://dcrouzet.chez-alice.fr/" target="_blank">Dominique Crouzet</a>.</div>
+<div style="height:12px">&nbsp;</div>
+<div align="center"><b>This artwork is also in the public domain:</b></div>
+<div style="height:12px">&nbsp;</div>
+<table align="center"><tbody id='gallery2'></tbody></table>
+
+<div style="height:12px">&nbsp;</div>
+<div align="center"><b>Many things which were foretold have come to pass.</b></div>
+<div align="center">The idea for the oasis on the horizon by <a href="https://thefreerpgblog.blogspot.com/" target="_blank">Rob Lang</a>.</div>
+<div align="center">Gnome named by Nadia Menon.</div>
+<div align="center">The description of the pyramid taken from Robert E. Howard.</div>
+<div align="center">Cthulhu invented by H.P. Lovecraft.</div>
+<div align="center">The rebel's speech by <a href="https://en.wikipedia.org/wiki/John%20Ball%20(priest)" target="_blank">John Ball</a>.</div>
+<div align="center">The cryer's chant by Percy Shelley.</div>
+<div align="center">The idea of Janooth by the <a href="http://www.vitalspot.f9.co.uk/" target="_blank">Vital Spot</a>.</div>
+<div align="center">The original idea of the Hollow Mockery by <a href="http://www.myspace.com/phoenixofborg" target="_blank">Phoenix Talion</a>.</div>
+<div align="center">The phrase 'Ape-Rajahs' is inspired by <a href="http://www222.pair.com/sjohn/encounter-critical.htm" target="_blank">Encounter Critical</a>.</div>
+<div align="center">Prince Dimitri originally inspired by a character in the Fabled Lands series.</div>
+<div align="center">The mad goblin inspired by the Fabled Lands series. His speech by <a href="https://en.wikipedia.org/wiki/Thomas%20de%20Quincey" target="_blank">Thomas de Quincey</a> (slightly adapted).</div>
+<div align="center">The rating system for ghosts by <a href="http://www.nonadventures.com/" target="_blank">Justin Pierce</a>.</div>
+<div align="center">'The Crows Call My Name' from an idea by Jack Handey.</div>
+<div align="center">The living door inspired by a similar feature in the Tunnels and Trolls paperback rules.</div>
+<div align="center">Dead Eye Street inspired by Forever Street and Nowhere Lane in the Fighting Fantasy series.</div>
+<div align="center">The description of the smoke in the pyramid based on the D&amp;D module 'White Plume Mountain'.</div>
+<div align="center">The gods in the pyramid are based on Lolth from D&amp;D, and Yag-kosha from <a href="http://www.apolitical.info/webgame/tower.php">The Tower of the Elephant</a>.</div>
+<div align="center">Font used for The End is <a href="https://greywolf.critter.net/fonts.htm">Greywolf Nouveau</a> (changed from the missing original)</div>
+`;
+    const creditsContainer = document.getElementById('credits-container');
+    creditsContainer.innerHTML = html;
+    renderTable('gallery1', artists1)
+    renderTable('gallery2', artists2)
+  }
   function rollDie(sides) {
     return Math.floor(Math.random() * sides) + 1;
   }
@@ -499,7 +618,7 @@ function statCheck(div, stats, difficulty, made) {
         if(stat == "Magic" && ! magicChecksWithoutPenalty.includes(gameState.para) && gameState.stats[1] > 1) {
             let loss = Math.min(Math.floor(Math.random() * 2) + 1, gameState.stats[1] - 1);
             gameState.stats[1] -= loss;
-            rollInfo += `</div><div>Lose ${loss} Stamina` } }
+            rollInfo += `</div><div class='metatext'>Lose ${loss} Stamina` } }
     passedRolls = 0;
     for(const stat of stats) {
       const dice = roll2d6Plus(gameState.stats[attIndexByName[stat]]);
@@ -553,6 +672,7 @@ function pushStateToURL() {
 }
 
 function getStateFromURL() {
+  debugger;
   const params = new URLSearchParams(location.search);
   const json = params.get('s');
   if (json) {
@@ -741,8 +861,8 @@ function attrDescription(statName, value) {
 
 function pushMessage(message) {
   storyDiv = document.getElementById('story');
-  storyDiv.innerHTML += `<div>&nbsp;</div>`;
   storyDiv.innerHTML += message;
+  storyDiv.innerHTML += `<div>&nbsp;</div>`;
 }
 
 function runParagraph() {
@@ -1021,16 +1141,16 @@ function runParagraph() {
         met = true;
       } else if (req > 1000) {
         // requires keyword to be 0
-        met = !gameState.keywords[req - 1000];
+        met = !gameState.keywords.has(req - 1000);
       } else if (req > 0) {
         // requires keyword present
-        met = !!gameState.keywords[req];
+        met = gameState.keywords.has(req);
       } else if (req < 0 && req > -100) {
         // requires you have item (-req)
-        met = !!gameState.items[-req];
+        met = gameState.items.has(-req);
       } else {
         // req <= -100 : requires you NOT have item ((-req)-100)
-        met = !gameState.items[(-req) - 100];
+        met = !gameState.items.has((-req) - 100);
       }
       if (met) choices.push({ label, dest });
     }

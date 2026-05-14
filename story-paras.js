@@ -7988,3 +7988,2115 @@ const artists ={
 'cpede': ["Storn A. Cook","www.stornart.com"],
 
 'centaur': ["unknown artist","public"]}
+
+
+
+const artists1 = [
+    {
+        "id": "dragonhead",
+        "thumb": "images/dragonhead-thumb.jpg",
+        "author": {
+            "name": "Azalea",
+            "url": "http://raue-see.de.vu"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "dwarf_tree",
+        "thumb": "images/dwarf_tree-thumb.jpg",
+        "author": {
+            "name": "Henning Ludvigsen",
+            "url": "http://www.henningludvigsen.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "frogprince",
+        "thumb": "images/frogprince-thumb.jpg",
+        "author": {
+            "name": "A. Daisy Lee",
+            "url": "http://elfwood.lysator.liu.se/art/d/a/daisy4/daisy4.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "greeneye",
+        "thumb": "images/greeneye-thumb.jpg",
+        "author": {
+            "name": "H.J. Rian de Jong",
+            "url": "http://h-johanna.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "troll",
+        "thumb": "images/troll-thumb.jpg",
+        "author": {
+            "name": "Rowan Lee Hartsuiker",
+            "url": "http://elfwood.lysator.liu.se/art/t/a/tayama/tayama.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "threeslugs",
+        "thumb": "images/threeslugs-thumb.jpg",
+        "author": {
+            "name": "Devon Jopling",
+            "url": "http://elfwood.lysator.liu.se/art/j/o/jopling/jopling.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "angergods",
+        "thumb": "images/angergods-thumb.jpg",
+        "author": {
+            "name": "Christopher A Malidore",
+            "url": "http://www.artisticways.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "dragon",
+        "thumb": "images/dragon-thumb.jpg",
+        "author": {
+            "name": "Pille Heero",
+            "url": "http://elfwood.lysator.liu.se/art/k/e/kesteine/kesteine.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "work",
+        "thumb": "images/work-thumb.jpg",
+        "author": {
+            "name": "Patrik Almqvist",
+            "url": "http://elfwood.lysator.liu.se/art/p/a/patrik/patrik.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "stage",
+        "thumb": "images/stage-thumb.jpg",
+        "author": {
+            "name": "Jenni Chasteen",
+            "url": "http://jeneni.whatthegeek.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "ship",
+        "thumb": "images/ship-thumb.jpg",
+        "author": {
+            "name": "Peter Town",
+            "url": "http://elfwood.lysator.liu.se/art/p/t/ptown/ptown.htm"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "rogue",
+        "thumb": "images/rogue-thumb.jpg",
+        "author": {
+            "name": "Michael Yazijian",
+            "url": "http://www.mikeyaz.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "brute",
+        "thumb": "images/brute-thumb.jpg",
+        "author": {
+            "name": "Mark Huffman",
+            "url": "http://elfwood.lysator.liu.se/art/a/u/auralius/auralius.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "witches",
+        "thumb": "images/witches-thumb.jpg",
+        "author": {
+            "name": "Tracy Butler",
+            "url": "http://www.foxprints.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "branch",
+        "thumb": "images/branch-thumb.jpg",
+        "author": {
+            "name": "Vilja V\u00e4is\u00e4nen",
+            "url": "http://hyel.thedanamark.net"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "swamp",
+        "thumb": "images/swamp-thumb.jpg",
+        "author": {
+            "name": "Hans Wichman",
+            "url": "http://www.screatoris.net"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "fairies",
+        "thumb": "images/fairies-thumb.jpg",
+        "author": {
+            "name": "Joanna M. Bromley",
+            "url": "http://jbrommers.deviantart.com/gallery"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "priestess",
+        "thumb": "images/priestess-thumb.jpg",
+        "author": {
+            "name": "Crystal Rose",
+            "url": "http://redheaded-step-child.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "planet",
+        "thumb": "images/planet-thumb.jpg",
+        "author": {
+            "name": "Irene Bagiacchi",
+            "url": "http://elfwood.lysator.liu.se/art/b/a/bagiacchi/bagiacchi.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "space",
+        "thumb": "images/space-thumb.jpg",
+        "author": {
+            "name": "Mattias Snygg",
+            "url": "http://www.mattiassnygg.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "imp",
+        "thumb": "images/imp-thumb.jpg",
+        "author": {
+            "name": "Maryam Gousheh-Forgeot",
+            "url": "http://www.spritewood.net"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "shopkeep",
+        "thumb": "images/shopkeep-thumb.jpg",
+        "author": {
+            "name": "Astrid Castle",
+            "url": "http://www.thecatnip.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "gob",
+        "thumb": "images/gob-thumb.jpg",
+        "author": {
+            "name": "Steve Argyle",
+            "url": "http://www.steveargyle.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "farm",
+        "thumb": "images/farm-thumb.jpg",
+        "author": {
+            "name": "Eric Martin",
+            "url": "http://www.epilogue.net/cgi/database/art/list.pl?gallery=5398"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "sunrise",
+        "thumb": "images/sunrise-thumb.jpg",
+        "author": {
+            "name": "Gunvor Paludan",
+            "url": "http://elfwood.lysator.liu.se/art/t/e/teddybeer/teddybeer.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "bird",
+        "thumb": "images/bird-thumb.jpg",
+        "author": {
+            "name": "Alex Elie",
+            "url": "http://seabird.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "tower",
+        "thumb": "images/tower-thumb.jpg",
+        "author": {
+            "name": "Pascal Etienne",
+            "url": "http://lagarie.free.fr"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "landscape",
+        "thumb": "images/landscape-thumb.jpg",
+        "author": {
+            "name": "H\u00e9l\u00e8ne Brunton",
+            "url": "http://elfwood.lysator.liu.se/art/h/b/hbruneton/hbruneton.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "wisewoman",
+        "thumb": "images/wisewoman-thumb.jpg",
+        "author": {
+            "name": "Ember Black",
+            "url": "http://kibs-0.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "unicorn",
+        "thumb": "images/unicorn-thumb.jpg",
+        "author": {
+            "name": "Ashley Applegate",
+            "url": "http://wolvesrealmstudio.tripod.com/Home.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "griffin",
+        "thumb": "images/griffin-thumb.jpg",
+        "author": {
+            "name": "Nemo (Alana Jane King)",
+            "url": "http://www.celticblack.deviantart.com"
+        },
+        "extra": "(Alana Jane King)",
+        "license": null
+    },
+    {
+        "id": "elf",
+        "thumb": "images/elf-thumb.jpg",
+        "author": {
+            "name": "Pilikia (Sue Evans Ross)",
+            "url": "http://www.steamtree.net"
+        },
+        "extra": "(Sue Evans Ross)",
+        "license": null
+    },
+    {
+        "id": "hrothulf",
+        "thumb": "images/hrothulf-thumb.jpg",
+        "author": {
+            "name": "Nathan M. Rosario",
+            "url": "http://elfwood.lysator.liu.se/art/n/m/nmros/nmros.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "travellers",
+        "thumb": "images/travellers-thumb.jpg",
+        "author": {
+            "name": "Timo Heikura",
+            "url": "http://timett.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "dockspriestess",
+        "thumb": "images/dockspriestess-thumb.jpg",
+        "author": {
+            "name": "Stephanie Pui-Mun Law",
+            "url": "http://www.shadowscapes.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "deathhorse",
+        "thumb": "images/deathhorse-thumb.jpg",
+        "author": {
+            "name": "Kaila Engar",
+            "url": "http://corvidaeart.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "clearing",
+        "thumb": "images/clearing-thumb.jpg",
+        "author": {
+            "name": "Evgenia P. Petkova<br>aka Foxy Jenny",
+            "url": "http://elfwood.lysator.liu.se/art/l/i/lisana/lisana.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "forestqueen",
+        "thumb": "images/forestqueen-thumb.jpg",
+        "author": {
+            "name": "Laura Pelick",
+            "url": "http://www.fallenlights.net"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "dragonslayers",
+        "thumb": "images/dragonslayers-thumb.jpg",
+        "author": {
+            "name": "Johnathan L Bingham",
+            "url": "http://www.johnathanbinghamart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "foxwoman",
+        "thumb": "images/foxwoman-thumb.jpg",
+        "author": {
+            "name": "Nomi (Hannah Schmidt)",
+            "url": "http://phenomi.deviantart.com"
+        },
+        "extra": "(Hannah Schmidt)",
+        "license": null
+    },
+    {
+        "id": "cave",
+        "thumb": "images/cave-thumb.jpg",
+        "author": {
+            "name": "-AP-",
+            "url": "http://opengameart.org/content/miscellaneous-concept-art"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+        "id": "pearl",
+        "thumb": "images/pearl-thumb.jpg",
+        "author": {
+            "name": "Manon Yapari",
+            "url": "http://www.manonyapari.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "child",
+        "thumb": "images/child-thumb.jpg",
+        "author": {
+            "name": "Malcolm Brown",
+            "url": "http://mbfantasyworld.mysite.wanadoo-members.co.uk"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "darkness",
+        "thumb": "images/darkness-thumb.jpg",
+        "author": {
+            "name": "Vitaly Alexius Samarin",
+            "url": "http://www.svitart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "beguiling",
+        "thumb": "images/beguiling-thumb.jpg",
+        "author": {
+            "name": "James McPartlin",
+            "url": "http://www.jamesmcpartlin.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "creature",
+        "thumb": "images/creature-thumb.jpg",
+        "author": {
+            "name": "Jon O'Mara Yuen Harrison",
+            "url": "http://elfwood.lysator.liu.se/art/h/a/harroj/harroj.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "battle",
+        "thumb": "images/battle-thumb.jpg",
+        "author": {
+            "name": "Mats Minnhagen",
+            "url": "http://elfwood.lysator.liu.se/art/m/i/minnhagen/minnhagen.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "fairyvillage",
+        "thumb": "images/fairyvillage-thumb.jpg",
+        "author": {
+            "name": "Johan Tri Handoyo",
+            "url": "http://johantri.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "catspider",
+        "thumb": "images/catspider-thumb.jpg",
+        "author": {
+            "name": "Christina Marie DeLong",
+            "url": "http://elfwood.lysator.liu.se/art/c/h/christimarie/christimarie.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "elfexile",
+        "thumb": "images/elfexile-thumb.jpg",
+        "author": {
+            "name": "Jenny Dolfen",
+            "url": "http://www.goldseven.de"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "pirateelf",
+        "thumb": "images/pirateelf-thumb.jpg",
+        "author": {
+            "name": "Doug D. Pham",
+            "url": "http://elfwood.lysator.liu.se/art/d/d/ddpham/ddpham.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "wildwoman",
+        "thumb": "images/wildwoman-thumb.jpg",
+        "author": {
+            "name": "Kiri Oestergaard",
+            "url": "http://elfwood.lysator.liu.se/art/s/p/spajk/spajk.html"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "zareth",
+        "thumb": "images/zareth-thumb.jpg",
+        "author": {
+            "name": "V\u00e9ronique Comeau",
+            "url": "http://verokomo.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "nara",
+        "thumb": "images/nara-thumb.jpg",
+        "author": {
+            "name": "Johnathan L Bingham",
+            "url": "http://www.johnathanbinghamart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "ritual",
+        "thumb": "images/ritual-thumb.jpg",
+        "author": {
+            "name": "Johnathan L Bingham",
+            "url": "http://www.johnathanbinghamart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "winged",
+        "thumb": "images/winged-thumb.jpg",
+        "author": {
+            "name": "Anzo",
+            "url": "http://totemdog.com/zen"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "elephant",
+        "thumb": "images/elephant-thumb.jpg",
+        "author": {
+            "name": "Anzo",
+            "url": "http://totemdog.com/zen"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "guard",
+        "thumb": "images/guard-thumb.jpg",
+        "author": {
+            "name": "Dominique Crouzet",
+            "url": "http://dcrouzet.chez-alice.fr"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "tunnel",
+        "thumb": "images/tunnel-thumb.jpg",
+        "author": {
+            "name": "Peter Mullen",
+            "url": "http://www.freewebs.com/mullenart"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "reader",
+        "thumb": "images/reader-thumb.jpg",
+        "author": {
+            "name": "Dominique Crouzet",
+            "url": "http://dcrouzet.chez-alice.fr"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "revengefrog",
+        "thumb": "images/revengefrog-thumb.jpg",
+        "author": null,
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by/3.0/us"
+    },
+    {
+        "id": "ratperson",
+        "thumb": "images/ratperson-thumb.jpg",
+        "author": null,
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by/3.0/us"
+    },
+    {
+        "id": "gobguards",
+        "thumb": "images/gobguards-thumb.jpg",
+        "author": {
+            "name": "Scott Harshbarger",
+            "url": "http://www.harshweb.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-nd/3.0"
+    },
+    {
+        "id": "bearman",
+        "thumb": "images/bearman-thumb.jpg",
+        "author": {
+            "name": "Emmanuel Roudier",
+            "url": "https://roudier-neandertal.blogspot.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "cthulhu",
+        "thumb": "images/cthulhu-thumb.jpg",
+        "author": {
+            "name": "Dominique Signoret",
+            "url": "http://dominique.signoret.perso.sfr.fr/Index.html"
+        },
+        "extra": "(slightly altered)",
+        "license": "https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License"
+    },
+    {
+        "id": "book",
+        "thumb": "images/book-thumb.jpg",
+        "author": {
+            "name": "T. Jordan Peacock",
+            "url": "http://greywolf.critter.net/fonts.htm"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "slaver",
+        "thumb": "images/slaver-thumb.jpg",
+        "author": {
+            "name": "GemFonts<br>(Graham Meade)",
+            "url": "http://moorstation.org/typoasis/designers/gemnew/home.htm"
+        },
+        "extra": "(Graham Meade)",
+        "license": null
+    },
+    {
+        "id": "priest",
+        "thumb": "images/priest-thumb.jpg",
+        "author": {
+            "name": "GemFonts<br>(Graham Meade)",
+            "url": "http://moorstation.org/typoasis/designers/gemnew/home.htm"
+        },
+        "extra": "(Graham Meade)",
+        "license": null
+    },
+    {
+        "id": "gnome",
+        "thumb": "images/gnome-thumb.jpg",
+        "author": {
+            "name": "Steve Zieser",
+            "url": "https://curmudgeonsdragons.blogspot.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "sick",
+        "thumb": "images/sick-thumb.jpg",
+        "author": {
+            "name": "GemFonts<br>(Graham Meade)",
+            "url": "http://moorstation.org/typoasis/designers/gemnew/home.htm"
+        },
+        "extra": "(Graham Meade)",
+        "license": null
+    },
+    {
+        "id": "tapestry",
+        "thumb": "images/tapestry-thumb.jpg",
+        "author": {
+            "name": "Historic Tale Construction Kit",
+            "url": "http://www.adgame-wonderland.de/type/bayeux.php"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "goblinsun",
+        "thumb": "images/goblinsun-thumb.jpg",
+        "author": {
+            "name": "Kris Jacque",
+            "url": "http://www.krisjacque.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/us"
+    },
+    {
+        "id": "kmdril",
+        "thumb": "images/kmdril-thumb.jpg",
+        "author": {
+            "name": "Kevin Mayle",
+            "url": "http://www.cafepress.com/kevinmayle"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "wvillage",
+        "thumb": "images/wvillage-thumb.jpg",
+        "author": {
+            "name": "Herbert Roe",
+            "url": "https://en.wikipedia.org/wiki/User:Heironymous_Rowe"
+        },
+        "extra": "(slightly altered)",
+        "license": "https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License"
+    },
+    {
+        "id": "clowns",
+        "thumb": "images/clowns-thumb.jpg",
+        "author": {
+            "name": "Herbert Roe<br>",
+            "url": "https://en.wikipedia.org/wiki/User:Heironymous_Rowe"
+        },
+        "extra": null,
+        "license": "https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License"
+    },
+    {
+        "id": "wedding",
+        "thumb": "images/wedding-thumb.jpg",
+        "author": {
+            "name": "Vincent Baker",
+            "url": "http://www.lumpley.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "adventurers",
+        "thumb": "images/adventurers-thumb.jpg",
+        "author": {
+            "name": "Jensen",
+            "url": "http://mokkurkalfe.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "tripods",
+        "thumb": "images/tripods-thumb.jpg",
+        "author": {
+            "name": "Flaxton",
+            "url": "https://en.wikipedia.org/wiki/User:Flaxton"
+        },
+        "extra": "(cropped and altered)",
+        "license": null
+    },
+    {
+        "id": "beetleguard",
+        "thumb": "images/beetleguard-thumb.jpg",
+        "author": {
+            "name": "David J. Stanley",
+            "url": "http://www.brutalrpg.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "street3",
+        "thumb": "images/street3-thumb.jpg",
+        "author": {
+            "name": "Balage Balogh",
+            "url": "http://www.balage4art.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "courtyard",
+        "thumb": "images/courtyard-thumb.jpg",
+        "author": {
+            "name": "Balage Balogh",
+            "url": "http://www.balage4art.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "street4",
+        "thumb": "images/street4-thumb.jpg",
+        "author": {
+            "name": "Seth Poppy",
+            "url": "http://spoppy.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-sa/3.0"
+    },
+    {
+        "id": "aircreature",
+        "thumb": "images/aircreature-thumb.jpg",
+        "author": {
+            "name": "Seth Poppy",
+            "url": "http://spoppy.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-sa/3.0"
+    },
+    {
+        "id": "exit",
+        "thumb": "images/exit-thumb.jpg",
+        "author": {
+            "name": "Joakim Persson",
+            "url": "http://opengameart.org/content/fortress-backgroundstoryboard-image"
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "guide",
+        "thumb": "images/guide-thumb.jpg",
+        "author": {
+            "name": "Misha",
+            "url": "http://opengameart.org/content/orc-002-concept"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "youngelf",
+        "thumb": "images/youngelf-thumb.jpg",
+        "author": {
+            "name": "Zeldyn",
+            "url": "http://zeldyn.deviantart.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-nd/3.0"
+    },
+    {
+        "id": "devil",
+        "thumb": "images/devil-thumb.jpg",
+        "author": {
+            "name": "Gallegos",
+            "url": "http://gallegosart.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-nd/3.0"
+    },
+    {
+        "id": "leaveship",
+        "thumb": "images/leaveship-thumb.jpg",
+        "author": {
+            "name": "-AP-",
+            "url": "http://opengameart.org/content/sos-at-sea"
+        },
+        "extra": "(cropped and altered)",
+        "license": null
+    },
+    {
+        "id": "archer",
+        "thumb": "images/archer-thumb.jpg",
+        "author": {
+            "name": "Brian Crick",
+            "url": "http://www.oogby.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "moving",
+        "thumb": "images/moving-thumb.jpg",
+        "author": {
+            "name": "Mark Allen",
+            "url": "http://www.marjasall.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "bouncer",
+        "thumb": "images/bouncer-thumb.jpg",
+        "author": {
+            "name": "Gallegos",
+            "url": "http://gallegosart.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-nd/3.0"
+    },
+    {
+        "id": "croupier",
+        "thumb": "images/croupier-thumb.jpg",
+        "author": {
+            "name": "Gallegos",
+            "url": "http://gallegosart.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-nd/3.0"
+    },
+    {
+        "id": "bee",
+        "thumb": "images/bee-thumb.jpg",
+        "author": {
+            "name": "Steveman",
+            "url": "http://neuroticfanboy.deviantart.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "evilgod",
+        "thumb": "images/evilgod-thumb.jpg",
+        "author": {
+            "name": "Dominique Signoret",
+            "url": "http://dominique.signoret.perso.sfr.fr/Index.html"
+        },
+        "extra": "(slightly altered)",
+        "license": "https://commons.wikimedia.org/wiki/Commons:GNU_Free_Documentation_License"
+    },
+    {
+        "id": "horsewoman",
+        "thumb": "images/horsewoman-thumb.jpg",
+        "author": {
+            "name": "Alexandre Togeiro",
+            "url": "https://alexandretogeiro.blogspot.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "stair",
+        "thumb": "images/stair-thumb.jpg",
+        "author": {
+            "name": "-AP-",
+            "url": "http://opengameart.org/content/miscellaneous-concept-art"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+        "id": "baretrees",
+        "thumb": "images/baretrees-thumb.jpg",
+        "author": {
+            "name": "Virginia Roper",
+            "url": "http://www.varoper.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "femalepirate",
+        "thumb": "images/femalepirate-thumb.jpg",
+        "author": {
+            "name": "Drawings and Dragons",
+            "url": "https://drawingsanddragons.blogspot.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "guard2",
+        "thumb": "images/guard2-thumb.jpg",
+        "author": {
+            "name": "Eli Arndt",
+            "url": "https://leadpeople.blogspot.com"
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "backstreet",
+        "thumb": "images/backstreet-thumb.jpg",
+        "author": {
+            "name": "Michael Rasmussen",
+            "url": "http://www.boardgamegeek.com/user/cauldronborn"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "emperor",
+        "thumb": "images/emperor-thumb.jpg",
+        "author": {
+            "name": "Joe Alterio",
+            "url": "http://www.joealterio.com"
+        },
+        "extra": "(cropped)",
+        "license": null
+    },
+    {
+        "id": "swordsman",
+        "thumb": "images/swordsman-thumb.jpg",
+        "author": {
+            "name": "Jacob Green",
+            "url": "https://fullmetalbot.blogspot.com"
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "snowskull",
+        "thumb": "images/snowskull-thumb.jpg",
+        "author": {
+            "name": "Justin Nichol",
+            "url": "http://opengameart.org/content/death-in-the-snow"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+        "id": "bigguard",
+        "thumb": "images/bigguard-thumb.jpg",
+        "author": {
+            "name": "Kelvin Green",
+            "url": "http://junkopia.net/kelvinsdirtybits"
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "cpede",
+        "thumb": "images/cpede-thumb.jpg",
+        "author": {
+            "name": "Storn A. Cook",
+            "url": "http://www.stornart.com"
+        },
+        "extra": null,
+        "license": "http://creativecommons.org/licenses/by-nc-sa/3.0"
+    }
+];
+
+const artists2 = [
+    {
+        "id": "city",
+        "thumb": "images/city-thumb.jpg",
+        "author": {
+            "name": "John Frederick Lewis",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "street1",
+        "thumb": "images/street1-thumb.jpg",
+        "author": {
+            "name": "Frederick Goodall",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "harbour",
+        "thumb": "images/harbour-thumb.jpg",
+        "author": {
+            "name": "Victor Carabain",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "witch",
+        "thumb": "images/witch-thumb.jpg",
+        "author": {
+            "name": "Thomas Cooper Gotch",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "forest",
+        "thumb": "images/forest-thumb.jpg",
+        "author": {
+            "name": "Frederick Ferdinand Schafer",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "karrakara",
+        "thumb": "images/karrakara-thumb.jpg",
+        "author": {
+            "name": "unknown Byzantine artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "apprentice",
+        "thumb": "images/apprentice-thumb.jpg",
+        "author": {
+            "name": "Jean-L\u00e9on G\u00e9r\u00f4me",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "dusk",
+        "thumb": "images/dusk-thumb.jpg",
+        "author": {
+            "name": "John Singer Sargent",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "storm",
+        "thumb": "images/storm-thumb.jpg",
+        "author": {
+            "name": "Ivan Aivazovsky",
+            "url": null
+        },
+        "extra": "(altered)",
+        "license": null
+    },
+    {
+        "id": "map",
+        "thumb": "images/map-thumb.jpg",
+        "author": {
+            "name": "al-Idrisi",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "castleair",
+        "thumb": "images/castleair-thumb.jpg",
+        "author": {
+            "name": "Rene Magritte",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "road",
+        "thumb": "images/road-thumb.jpg",
+        "author": {
+            "name": "Edward Lear",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "gods",
+        "thumb": "images/gods-thumb.jpg",
+        "author": {
+            "name": "David Roberts",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "crowd",
+        "thumb": "images/crowd-thumb.jpg",
+        "author": {
+            "name": "Leon Belly",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "nomad",
+        "thumb": "images/nomad-thumb.jpg",
+        "author": {
+            "name": "Frederick Goodall",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "fur",
+        "thumb": "images/fur-thumb.jpg",
+        "author": {
+            "name": "Jean-L\u00e9on G\u00e9r\u00f4me",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "square1",
+        "thumb": "images/square1-thumb.jpg",
+        "author": {
+            "name": "John Frederick Lewis",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "warrior",
+        "thumb": "images/warrior-thumb.jpg",
+        "author": {
+            "name": "George Catlin",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "village",
+        "thumb": "images/village-thumb.jpg",
+        "author": {
+            "name": "George Catlin",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "gladiator",
+        "thumb": "images/gladiator-thumb.jpg",
+        "author": {
+            "name": "Jean-L\u00e9on G\u00e9r\u00f4me",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "wander",
+        "thumb": "images/wander-thumb.jpg",
+        "author": {
+            "name": "Albert Bierstadt",
+            "url": null
+        },
+        "extra": "(cropped)",
+        "license": null
+    },
+    {
+        "id": "merchant",
+        "thumb": "images/merchant-thumb.jpg",
+        "author": {
+            "name": "Frederick Arthur Bridgman",
+            "url": null
+        },
+        "extra": "(altered)",
+        "license": null
+    },
+    {
+        "id": "fishwoman",
+        "thumb": "images/fishwoman-thumb.jpg",
+        "author": {
+            "name": "Rene Magritte",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "magiccarpet",
+        "thumb": "images/magiccarpet-thumb.jpg",
+        "author": {
+            "name": "Viktor Vasnetsov",
+            "url": null
+        },
+        "extra": "(cropped and altered)",
+        "license": null
+    },
+    {
+        "id": "spider",
+        "thumb": "images/spider-thumb.jpg",
+        "author": {
+            "name": "Jos\u00e9 Posada",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "death",
+        "thumb": "images/death-thumb.jpg",
+        "author": {
+            "name": "Jos\u00e9 Posada",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "docks",
+        "thumb": "images/docks-thumb.jpg",
+        "author": {
+            "name": "Ivan Bilibin",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "karra2",
+        "thumb": "images/karra2-thumb.jpg",
+        "author": {
+            "name": "David Roberts",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "street2",
+        "thumb": "images/street2-thumb.jpg",
+        "author": {
+            "name": "Jean-L\u00e9on G\u00e9r\u00f4me",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "mermaid",
+        "thumb": "images/mermaid-thumb.jpg",
+        "author": {
+            "name": "John William Waterhouse",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "forestpath",
+        "thumb": "images/forestpath-thumb.jpg",
+        "author": {
+            "name": "Theodor Kittelsen",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "goblins",
+        "thumb": "images/goblins-thumb.jpg",
+        "author": {
+            "name": "Arthur Rackham",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "forestking",
+        "thumb": "images/forestking-thumb.jpg",
+        "author": {
+            "name": "Theodor Kittelsen",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "wilddog",
+        "thumb": "images/wilddog-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "sewer",
+        "thumb": "images/sewer-thumb.jpg",
+        "author": {
+            "name": "Giovanni Piranesi",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "town",
+        "thumb": "images/town-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "swanroad",
+        "thumb": "images/swanroad-thumb.jpg",
+        "author": {
+            "name": "Sophie Anderson",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "cryer",
+        "thumb": "images/cryer-thumb.jpg",
+        "author": {
+            "name": "Fernand Khnopff",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "catpiano",
+        "thumb": "images/catpiano-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "statue",
+        "thumb": "images/statue-thumb.jpg",
+        "author": {
+            "name": "Martin Heemskerck",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "drowned",
+        "thumb": "images/drowned-thumb.jpg",
+        "author": {
+            "name": "John Everett Millais",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "wizard",
+        "thumb": "images/wizard-thumb.jpg",
+        "author": {
+            "name": "Louis Moe",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "raven",
+        "thumb": "images/raven-thumb.jpg",
+        "author": {
+            "name": "\u00c9douard Manet",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "faust",
+        "thumb": "images/faust-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "pyramid",
+        "thumb": "images/pyramid-thumb.jpg",
+        "author": {
+            "name": "Giovanni Piranesi",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "plank",
+        "thumb": "images/plank-thumb.jpg",
+        "author": {
+            "name": "Howard Pyle",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "latpriestess",
+        "thumb": "images/latpriestess-thumb.jpg",
+        "author": {
+            "name": "Lawrence Alma-Tadema",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "outtosea",
+        "thumb": "images/outtosea-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "dancers",
+        "thumb": "images/dancers-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "walls",
+        "thumb": "images/walls-thumb.jpg",
+        "author": {
+            "name": "Ricardo Almend\u00e1riz",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "wolf",
+        "thumb": "images/wolf-thumb.jpg",
+        "author": {
+            "name": "Viktor Vasnetsov",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "sheeptree",
+        "thumb": "images/sheeptree-thumb.jpg",
+        "author": {
+            "name": "H. Lee",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "rhino",
+        "thumb": "images/rhino-thumb.jpg",
+        "author": {
+            "name": "Albrecht D\u00fcrer",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "captive",
+        "thumb": "images/captive-thumb.jpg",
+        "author": {
+            "name": "Christian Krohg",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "flyer",
+        "thumb": "images/flyer-thumb.jpg",
+        "author": {
+            "name": "Armand Welcker",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "highjohn",
+        "thumb": "images/highjohn-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "flying",
+        "thumb": "images/flying-thumb.jpg",
+        "author": {
+            "name": "N.C. Wyeth",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "magician",
+        "thumb": "images/magician-thumb.jpg",
+        "author": {
+            "name": "N.C. Wyeth",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "client",
+        "thumb": "images/client-thumb.jpg",
+        "author": {
+            "name": "Jean-L\u00e9on G\u00e9r\u00f4me",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "square2",
+        "thumb": "images/square2-thumb.jpg",
+        "author": {
+            "name": "Willy Pogany",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "square3",
+        "thumb": "images/square3-thumb.jpg",
+        "author": {
+            "name": "Willy Pogany",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "streetsell",
+        "thumb": "images/streetsell-thumb.jpg",
+        "author": {
+            "name": "Gustav Bauernfeind",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "snow",
+        "thumb": "images/snow-thumb.jpg",
+        "author": {
+            "name": "Jules Laurens",
+            "url": null
+        },
+        "extra": "(altered)",
+        "license": null
+    },
+    {
+        "id": "temples",
+        "thumb": "images/temples-thumb.jpg",
+        "author": {
+            "name": "Frederick Catherwood",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "walled",
+        "thumb": "images/walled-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "ruins",
+        "thumb": "images/ruins-thumb.jpg",
+        "author": {
+            "name": "Caspar David Friedrich",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "homeless",
+        "thumb": "images/homeless-thumb.jpg",
+        "author": {
+            "name": "Leonardo da Vinci",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "nobles",
+        "thumb": "images/nobles-thumb.jpg",
+        "author": {
+            "name": "Louis Rhead",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "carry",
+        "thumb": "images/carry-thumb.jpg",
+        "author": {
+            "name": "Louis Rhead",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "cards",
+        "thumb": "images/cards-thumb.jpg",
+        "author": {
+            "name": "Massimo Lazzari",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "bridge",
+        "thumb": "images/bridge-thumb.jpg",
+        "author": {
+            "name": "J.J. Grandville",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "lodge",
+        "thumb": "images/lodge-thumb.jpg",
+        "author": {
+            "name": "George du Maurier",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "snowruin",
+        "thumb": "images/snowruin-thumb.jpg",
+        "author": {
+            "name": "Caspar David Friedrich",
+            "url": null
+        },
+        "extra": "(slightly altered)",
+        "license": null
+    },
+    {
+        "id": "mpriestess",
+        "thumb": "images/mpriestess-thumb.jpg",
+        "author": {
+            "name": "Alphonse Mucha",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "square",
+        "thumb": "images/square-thumb.jpg",
+        "author": {
+            "name": "Tavik Simon",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "river",
+        "thumb": "images/river-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "foresthut",
+        "thumb": "images/foresthut-thumb.jpg",
+        "author": {
+            "name": "Thomas Mackenzie",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "judge",
+        "thumb": "images/judge-thumb.jpg",
+        "author": {
+            "name": "Howard Pyle",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "mermaidsong",
+        "thumb": "images/mermaidsong-thumb.jpg",
+        "author": {
+            "name": "Howard Pyle",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "froghawker",
+        "thumb": "images/froghawker-thumb.jpg",
+        "author": {
+            "name": "Arthur Rackham",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "youngman",
+        "thumb": "images/youngman-thumb.jpg",
+        "author": {
+            "name": "Harry Clarke",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "hell",
+        "thumb": "images/hell-thumb.jpg",
+        "author": {
+            "name": "Herrad von Landsberg",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "sunset",
+        "thumb": "images/sunset-thumb.jpg",
+        "author": {
+            "name": "Thomas Seddon",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "strangemount",
+        "thumb": "images/strangemount-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "redbeast",
+        "thumb": "images/redbeast-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "ozyend",
+        "thumb": "images/ozyend-thumb.jpg",
+        "author": {
+            "name": "Frederick Goodall",
+            "url": null
+        },
+        "extra": "(altered)",
+        "license": null
+    },
+    {
+        "id": "rescue",
+        "thumb": "images/rescue-thumb.jpg",
+        "author": {
+            "name": "Herbert James Draper",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "hell2",
+        "thumb": "images/hell2-thumb.jpg",
+        "author": {
+            "name": "Kawanabe Kyosai",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "flight",
+        "thumb": "images/flight-thumb.jpg",
+        "author": {
+            "name": "Alexander Wilson",
+            "url": null
+        },
+        "extra": "(cropped and altered)",
+        "license": null
+    },
+    {
+        "id": "land",
+        "thumb": "images/land-thumb.jpg",
+        "author": {
+            "name": "Olaus Magnus",
+            "url": null
+        },
+        "extra": "(altered)",
+        "license": null
+    },
+    {
+        "id": "island",
+        "thumb": "images/island-thumb.jpg",
+        "author": {
+            "name": "Olaus Magnus",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "amazon",
+        "thumb": "images/amazon-thumb.jpg",
+        "author": {
+            "name": "Gustav Klimt",
+            "url": null
+        },
+        "extra": "(cropped and altered)",
+        "license": null
+    },
+    {
+        "id": "queen",
+        "thumb": "images/queen-thumb.jpg",
+        "author": {
+            "name": "Frank Godwin",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "amacity",
+        "thumb": "images/amacity-thumb.jpg",
+        "author": {
+            "name": "Martin Heemskerck",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "gethorse",
+        "thumb": "images/gethorse-thumb.jpg",
+        "author": {
+            "name": "H.J. Ford",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "turtleman",
+        "thumb": "images/turtleman-thumb.jpg",
+        "author": {
+            "name": "H.J. Ford",
+            "url": null
+        },
+        "extra": "(cropped and altered)",
+        "license": null
+    },
+    {
+        "id": "eyes",
+        "thumb": "images/eyes-thumb.jpg",
+        "author": {
+            "name": "Francesco del Cossa",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "robbers",
+        "thumb": "images/robbers-thumb.jpg",
+        "author": {
+            "name": "N.C. Wyeth",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "bearprincess",
+        "thumb": "images/bearprincess-thumb.jpg",
+        "author": {
+            "name": "Theodor Kittelsen",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "owls",
+        "thumb": "images/owls-thumb.jpg",
+        "author": {
+            "name": "Adriaen van de Venne",
+            "url": null
+        },
+        "extra": "(cropped and altered)",
+        "license": null
+    },
+    {
+        "id": "page",
+        "thumb": "images/page-thumb.jpg",
+        "author": {
+            "name": "unknown author",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "skin",
+        "thumb": "images/skin-thumb.jpg",
+        "author": {
+            "name": "Odilon Redon",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "spiderhead",
+        "thumb": "images/spiderhead-thumb.jpg",
+        "author": {
+            "name": "Odilon Redon",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "catgod",
+        "thumb": "images/catgod-thumb.jpg",
+        "author": {
+            "name": "Louis Wain",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "darkman",
+        "thumb": "images/darkman-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    },
+    {
+        "id": "atnos",
+        "thumb": "images/atnos-thumb.jpg",
+        "author": {
+            "name": "unknown artist",
+            "url": null
+        },
+        "extra": null,
+        "license": null
+    }
+];
